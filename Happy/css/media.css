@@ -1,0 +1,11 @@
+@media all and (min-width: 1150px){
+.b-1:hover{
+	background: green;
+	border-color: transparent;
+	
+}
+.b-2:hover{
+	border: 2px solid;
+	background: transparent;
+}
+}

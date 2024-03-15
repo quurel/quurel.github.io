@@ -1,0 +1,14 @@
+.main{
+	width: 80%;
+	margin: auto;
+}
+.gallery{
+	width: 100%;
+	columns: 5;
+	padding-top: 100px;
+	
+
+}
+.element{
+	width: 100%;
+}

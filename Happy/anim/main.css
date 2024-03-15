@@ -1,0 +1,84 @@
+body{
+	background: green;
+}
+.main{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.element{
+	width: calc(50% - 10px);
+	height: 200px;
+	background: url(https://s1.1zoom.ru/big7/367/Lake_Mountains_Sunrises_433183.jpg);
+	background-size: cover;
+	margin: 5px;
+	transition: 1s;
+
+}
+.e1:hover{
+	height: 300px;
+
+
+}
+.e2:hover{
+	transform: scale(0.5);
+}
+.e3:hover{
+	transform: rotate(3deg) scale(1.1);
+}
+.e4{
+	filter: blur(5px);
+}
+.e4:hover{
+	filter: blur(0px);
+}
+.e5{
+	filter: grayscale(80%) blur(5px);
+	transform: scale(1);
+
+}
+.e5:hover{
+	filter: grayscale(0%) brightness(2.0);
+	transform: scale(1.5);
+}
+.e6:hover{
+	filter: drop-shadow(1px 1px);
+	transform: translate(10px, 59%);
+
+}
+.e7{
+filter: contrast(1500%);
+}
+.e7:hover{
+	transform:	skewY(1deg);
+	filter: contrast(100%);
+}
+.e8:hover{
+	filter: saturate(300%);
+}
+.e9{
+	opacity: 50%;
+}
+.e10{
+	filter: blur(20px);
+}
+.e10:hover{
+	filter: blur(0px) drop-shadow(2px 2px);
+	transform: skew(10deg);
+}
+.e11:hover{
+	transform: matrix(1, 1, 1, 1, 2, 2);
+}
+.e14{
+	filter: invert(100%);
+}
+/*.e14:hover{
+	filter: hue-rotate(360deg);
+}*/
+.e15:hover{
+	filter: sepia(1);
+}
+.e16:hover{
+	transform-origin: 110% 110%;
+}
