@@ -1,0 +1,104 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+    color: #626262;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: #2cbebe;
+}
+a:hover{
+    color: #2ed8d8;
+}
+header .navbar-brand{
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-item{
+    transform: uppercase;
+    margin-left: 50px;
+}
+header .nav-item a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.6s;
+}
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+    margin-bottom: 100px;
+}
+
+.p-name, .link {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: blue;
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+    font-size: 30px;
+}
+
+.load-more span {
+    display: none;
+}
+
+.sign-up {
+    background: blue;
+    padding: 70px 0;
+}
+
+.sign-up form {
+    margin-top: 70px
+}
+
+.sign-up .form-input {
+    position: relative;
+}
+
+.form-input .btn {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    top: -6px;
+}
+
+.btn {
+    
+}
+
+.btn {
+    
+}
