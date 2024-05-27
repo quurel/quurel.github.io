@@ -7,15 +7,12 @@ img{
     max-width: 100%;
     height: auto;
 }
+
 .slider {
-    margin-top: 100px;
+    
 }
 
-.conteiner {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.my-border {
     margin-top: 50px;
     border-top: 1px solid aqua;
     border-bottom:1px solid aqua;
@@ -41,9 +38,7 @@ img{
     
 }
 
-.h2 {
-    
-}
+
 
 .h2 {
     font-size: 64px;
@@ -54,3 +49,159 @@ img{
     font-size: 14px;
 	padding: 15px 0;
 }
+header {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.texts {
+    background: url(../img/5.jpg)
+}
+.texts h2{
+/*    font-size: 58px;*/
+    font-weight: 400px;
+    margin: 0 0 22px 0;
+    line-height: 1;
+}
+
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    color: #eb3e32;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1;
+    
+}
+ul li{
+    list-style: none;
+}
+li{
+    display: list-item;
+}
+.details a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+    
+}
+.product {
+    
+    padding: 40px 0;
+    border-bottom: 1px solid black;
+}
+.product span{
+    font-weight: 700;
+}
+.product p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.product a{
+    color: #424242;
+    text-decoration: none;
+    
+}
+
+.sneaker-foto {
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+
+
+
+
+
+.bfm {
+    display: flex;
+    
+    
+}
+
+
+
+.br-4 {
+    border: 2px solid black;
+    
+}
+
+.logo {
+    letter-spacing: 5px;
+}
+.bd{
+    background: white;
+}
+
+.sb {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview {
+    background: url(https://technext.github.io/shoppers/images/hero_1.jpg);
+    height: calc(100vh - 130px);
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.bot {
+    bottom: 0;
+    height: 50px;
+}
+
+.alpha {
+    color: #6610f2;
+}
+
+.slide-sth {
+    width: 100%;
+    height: 500px;
+    background: gray;
+}
+
+.pos-switch-pref {
+    height: 50px;
+/*    position: absolute;*/
+    bottom: 0;
+    width: 100px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+
+.pos-switch-next {
+    height: 50px;
+/*    position: absolute;*/
+    bottom: 0;
+    width: 100px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pos-switch {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
